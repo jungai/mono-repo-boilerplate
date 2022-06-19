@@ -18,6 +18,7 @@
 	},
 	"scripts": {
 		"build": "tsc",
-		"start": "node ."
+		"start": "node .",
+		"turbo:start": "pnpm -w start:express-app"
 	}
 }

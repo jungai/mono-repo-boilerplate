@@ -1,12 +1,14 @@
 {
-  "name": "eiei-monorepo",
-  "author": "jungai",
-  "license": "ISC",
-  "devDependencies": {
-    "turbo": "^1.2.16"
-  },
-  "scripts": {
-    "build:libs": "turbo run build --filter=./libs/*",
-    "build:svel-app": "turbo run build --filter=@eiei/svelte-app"
-  }
+	"name": "eiei-monorepo",
+	"author": "jungai",
+	"license": "ISC",
+	"devDependencies": {
+		"turbo": "^1.2.16"
+	},
+	"scripts": {
+		"build:libs": "turbo run build --filter=./libs/*",
+		"build:svel-app": "turbo run build --filter=@eiei/svelte-app",
+		"build:express-app": "turbo run build --filter=@eiei/express-app",
+		"start:express-app": "turbo run start --filter=@eiei/express-app"
+	}
 }
