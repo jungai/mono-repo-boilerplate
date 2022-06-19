@@ -1,0 +1,8 @@
+{
+  "name": "eiei-monorepo",
+  "author": "jungai",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
