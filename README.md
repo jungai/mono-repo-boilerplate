@@ -17,7 +17,9 @@ make
 {
 	"scripts": {
 		"build:libs": "turbo run build --filter=./libs/*",
-		"build:svel-app": "turbo run build --filter=@eiei/svelte-app"
+		"build:svel-app": "turbo run build --filter=@eiei/svelte-app",
+		"build:express-app": "turbo run build --filter=@eiei/express-app",
+		"start:express-app": "turbo run start --filter=@eiei/express-app"
 	}
 }
 ```
