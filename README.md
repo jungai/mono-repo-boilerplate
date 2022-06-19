@@ -1,5 +1,7 @@
 # My Stack
 
+> turbo prune not supported pnpm yet
+
 ## tools(framework, library)
 
 - [turbo](https://turborepo.org)
