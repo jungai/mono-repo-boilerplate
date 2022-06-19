@@ -2,7 +2,11 @@
   "name": "eiei-monorepo",
   "author": "jungai",
   "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.2.16"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:libs": "turbo run build --filter=./libs/*",
+    "build:svel-app": "turbo run build --filter=@eiei/svelte-app"
   }
 }
