@@ -1,5 +1,5 @@
 {
-  "extends": "tsconfig/base-typescript.json",
+  "extends": "@eiei/tsconfig/base-typescript.json",
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "dist"
