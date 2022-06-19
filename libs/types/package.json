@@ -1,5 +1,5 @@
 {
-  "name": "types",
+  "name": "@eiei/types",
   "version": "1.0.0",
   "description": "contain all the share types used in the project",
   "types": "dist/index.d.ts",
@@ -7,7 +7,7 @@
   "author": "jungai",
   "license": "ISC",
   "devDependencies": {
-    "tsconfig": "workspace:*",
+    "@eiei/tsconfig": "workspace:*",
     "typescript": "^4.7.4"
   },
   "scripts": {
